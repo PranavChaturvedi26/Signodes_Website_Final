@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+  background: #101928;
+  height: 5vh;
+  width: 100%;
+  font-size: 20px;
+  transition: all 0.5s;
+  color: #cd3636;
+  padding: 1px;
+  position: relative;
+  z-index: 1000;
+}
+#topbar .contact-info i {
+  font-style: normal;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#topbar .contact-info i a,
+#topbar .contact-info i span {
+  padding-left: 5px;
+  color: #fff;
+}
+
+#topbar .contact-info i a {
+  line-height: 0;
+  transition: 0.3s;
+  transition: 0.3s;
+}
+
+#topbar .contact-info i a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#topbar .social-links a {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 0;
+  transition: 0.3s;
+  margin-left: 20px;
+}
+
+#topbar .social-links a:hover {
+  color: red;
+}
